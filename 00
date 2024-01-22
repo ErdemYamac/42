@@ -1,0 +1,11 @@
+k1m26s01:~ myamac$ ls
+Desktop		Downloads	goinfre
+Documents	Library		z.txt
+k1m26s01:~ myamac$ Desktop
+-bash: Desktop: command not found
+k1m26s01:~ myamac$ cd Desktop
+k1m26s01:Desktop myamac$ touch z.txt
+k1m26s01:Desktop myamac$ cat z.txt
+Z
+
+k1m26s01:Desktop myamac$ 
