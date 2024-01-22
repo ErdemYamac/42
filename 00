@@ -1,11 +1,9 @@
-k1m26s01:~ myamac$ ls
-Desktop		Downloads	goinfre
-Documents	Library		z.txt
-k1m26s01:~ myamac$ Desktop
--bash: Desktop: command not found
-k1m26s01:~ myamac$ cd Desktop
-k1m26s01:Desktop myamac$ touch z.txt
-k1m26s01:Desktop myamac$ cat z.txt
+k1m26s01:~ myamac$ cd Desktop/
+k1m26s01:Desktop myamac$ cd egzersiz/
+k1m26s01:egzersiz myamac$ mkdir ex00
+k1m26s01:egzersiz myamac$ cd ex00/
+k1m26s01:ex00 myamac$ touch z
+k1m26s01:ex00 myamac$ echo "Z" > z 
+k1m26s01:ex00 myamac$ cat z
 Z
-
-k1m26s01:Desktop myamac$ 
+k1m26s01:ex00 myamac$ 
