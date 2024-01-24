@@ -1,0 +1,8 @@
+k1m20s08:~ myamac$ cd Desktop/
+k1m20s08:Desktop myamac$ cd egzersiz/
+k1m20s08:egzersiz myamac$ mkdir ex04
+k1m20s08:egzersiz myamac$ cd ex04
+k1m20s08:ex04 myamac$ touch midLS
+k1m20s08:ex04 myamac$ vim midLS
+k1m20s08:ex04 myamac$ ls -tmp
+midLS
