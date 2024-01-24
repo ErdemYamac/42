@@ -1,0 +1,36 @@
+k1m20s08:~ myamac$ cd Desktop/
+k1m20s08:Desktop myamac$ cd egzersiz/
+k1m20s08:egzersiz myamac$ cd ex02
+k1m20s08:ex02 myamac$ mkdir test0
+k1m20s08:ex02 myamac$ touch test1
+k1m20s08:ex02 myamac$ mkdir test2
+k1m20s08:ex02 myamac$ touch test3
+k1m20s08:ex02 myamac$ touch test4
+k1m20s08:ex02 myamac$ touch test5
+k1m20s08:ex02 myamac$ ln -s test0 test6
+k1m20s08:ex02 myamac$ touch -t 202406012342 test0
+k1m20s08:ex02 myamac$ echo "aaa" > test1
+k1m20s08:ex02 myamac$ touch -t 202406012342 test1
+k1m20s08:ex02 myamac$ touch -t 202406012342 test2
+k1m20s08:ex02 myamac$ echo "" > test3
+k1m20s08:ex02 myamac$ touch -t 202406012342 test3
+k1m20s08:ex02 myamac$ echo "a" > test4
+k1m20s08:ex02 myamac$ touch -t 202406012342 test4
+k1m20s08:ex02 myamac$ echo "" > test5
+k1m20s08:ex02 myamac$ touch -t 202406012342 test5
+k1m20s08:ex02 myamac$ chmod 751 test0
+k1m20s08:ex02 myamac$ chmod 750 test1
+k1m20s08:ex02 myamac$ chmod 414 test2
+k1m20s08:ex02 myamac$ chmod 404 test3
+k1m20s08:ex02 myamac$ chmod 641 test4
+k1m20s08:ex02 myamac$ chmod 404 test5
+k1m20s08:ex02 myamac$ chmod -h 777 test6
+k1m20s08:ex02 myamac$ ls -l
+total 40
+drwxr-x--x  2 myamac  2024_istanbul  68 Jun  1  2024 test0
+-rwxr-x---  1 myamac  2024_istanbul   4 Jun  1  2024 test1
+dr----xr--  2 myamac  2024_istanbul  68 Jun  1  2024 test2
+-r-----r--  1 myamac  2024_istanbul   1 Jun  1  2024 test3
+-rw-r----x  1 myamac  2024_istanbul   2 Jun  1  2024 test4
+-r-----r--  1 myamac  2024_istanbul   1 Jun  1  2024 test5
+lrwxrwxrwx  1 myamac  2024_istanbul   5 Jan 24 10:54 test6 -> test0
