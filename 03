@@ -1,0 +1,30 @@
+k1m20s08:~ myamac$ cd Desktop/
+k1m20s08:Desktop myamac$ cd egzersiz/
+k1m20s08:egzersiz myamac$ mkdir ex03
+k1m20s08:egzersiz myamac$ cd ex03
+k1m20s08:ex03 myamac$ touch id_rsa_pub
+k1m20s08:ex03 myamac$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/myamac/.ssh/id_rsa): 
+Created directory '/Users/myamac/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/myamac/.ssh/id_rsa.
+Your public key has been saved in /Users/myamac/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:5zYfAUkhVoigRiGGm4Fg0SuAs932N3RMc0pyx2V3Ch4 myamac@k1m20s08.42istanbul.com.tr
+The key's randomart image is:
++---[RSA 3072]----+
+|B+=... .oo+oE.o o|
+|Xo o  ..oo=o++ o.|
+|.Bo..    *o=. .  |
+|+o..o   . +.     |
+|  .. . .S.. .    |
+|      . oo   .   |
+|       . .+ .    |
+|         . o .   |
+|            .    |
++----[SHA256]-----+
+k1m20s08:ex03 myamac$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDFvb9rIcWx+bspru4TgMDn0wyjGXpqdEi9vs6UDL/Ib5BM8/0gbofbq5cH3zpbPP2E0nwt8KKZRjM1kn4j5xRt6whZCjrHtl5m9Oy3ttmX5DL+jx7DIcmzSqH6N5XgDd1yo8AxEOw031jXfzpgZRAuwdBiUEzTuPsLP0pJRBc0on82LiI+R9GRVV+JlhJkpThv+lRCNhUt16SJwUn5I+OufHV1O9kkaAe73AunsrprL6gmyjnOrl5iuc8NRzHO/CFqN3Pxc7NZQXzFLKs4M4ddnBM0aj/+oSGtk/EGDiByuSWB1uohebTnuXIrpk8BtpxiQDiE/cqU3qASb3lo0b2yZayyL1A1x3DXoYtn4hZcv50a25JTYVD67lA0+stR4dE+/TdQKaPdZhe9Tm02AT2jcrKdC7mKDJbyRYFBltNwGf2Jy+YZFj3cUtvk6YfVfb4jFHfz3p1UKDVZ/coe0ifshSH2j4ntaguWR40KCVefijRrfsLJRt2sIVJZKqlsHaU= myamac@k1m20s08.42istanbul.com.tr
+k1m20s08:ex03 myamac$ vim id_rsa_pub
